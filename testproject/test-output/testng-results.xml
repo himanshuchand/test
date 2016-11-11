@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11358" started-at="2016-11-10T13:44:26Z" finished-at="2016-11-10T13:44:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11358" started-at="2016-11-10T13:44:26Z" finished-at="2016-11-10T13:44:37Z">
+      <class name="join_seller.join_sellers">
+        <test-method status="PASS" signature="generatecsv()[pri:0, instance:join_seller.join_sellers@ae45eb6]" name="generatecsv" is-config="true" duration-ms="17" started-at="2016-11-10T19:14:26Z" finished-at="2016-11-10T19:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generatecsv -->
+        <test-method status="PASS" signature="before_test()[pri:0, instance:join_seller.join_sellers@ae45eb6]" name="before_test" is-config="true" duration-ms="4563" started-at="2016-11-10T19:14:26Z" finished-at="2016-11-10T19:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method status="PASS" signature="test_join_seller(java.lang.String)[pri:0, instance:join_seller.join_sellers@ae45eb6]" name="test_join_seller" duration-ms="6782" started-at="2016-11-10T19:14:30Z" data-provider="join_seller" finished-at="2016-11-10T19:14:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test case 1","seller1","seller111011071426@example.com","webkul12#","webkul12#"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_join_seller -->
+        <test-method status="PASS" signature="after_test()[pri:0, instance:join_seller.join_sellers@ae45eb6]" name="after_test" is-config="true" duration-ms="3013" started-at="2016-11-10T19:14:37Z" finished-at="2016-11-10T19:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+      </class> <!-- join_seller.join_sellers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
